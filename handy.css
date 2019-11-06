@@ -3,7 +3,7 @@ body{
 }
 #logo{
 	position: absolute;
-	left: 181px;
+	left: 10%;
 	top: 30px;
 }
 #header{
@@ -19,7 +19,6 @@ nav{
 }
 ul {
   list-style-type: none;
-  margin: 0;
   padding-top: 5px;
   padding-bottom: 5px;
   overflow: hidden;
@@ -32,7 +31,7 @@ li {
   float: left;
 }
 
-li a, .dropbtn {
+li a, .over {
   display: inline-block;
   color: white;
   text-align: center;
@@ -40,23 +39,23 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+li a:hover, .list:hover .over{
   background-color: yellow;
   color: black;
 }
 
-li.dropdown {
+li.list {
   display: inline-block;
 }
 
-.dropdown-content {
+.menu {
   display: none;
   position: absolute;
   background-color: #222931;
   min-width: 160px;
 }
 
-.dropdown-content a {
+.menu a {
   color: white
   padding: 12px 16px;
   text-decoration: none;
@@ -64,16 +63,21 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover{
+.menu a:hover{
 	background-color: yellow;
 }
 
-.dropdown:hover .dropdown-content {
+.list:hover .menu {
   display: block;
 }
-#down{
+#arrow{
 	color: white;
 }
-#down:hover{
+#arrow:hover{
 	color: black;
+}
+#banner1{
+	position: absolute;
+	top: 620px;
+	left: 200px;
 }
