@@ -1,21 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script src="https://kit.fontawesome.com/e0cf27849f.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="handy.css">
 	<title>Handy</title>
 </head>
+<STYLE>A {text-decoration: none;} </STYLE>
 <body>
 	<div>
-	<img src="img/logo.jpg" id="logo">
-	<img src="img/header.jpg" id="header" width="1536">
+	<img src="img/logo.jpg" id="logo" height="30">
+	<img src="img/header.jpg" id="header" width="1536"
+	height="">
+
 </div>
 <nav>
 	<ul>
-		<a> Home
-		<li> Over ons</li>
-		Portfolio
-		Nieuws
-		Contact</a>
+  <li><a href="#home">HOME</a></li>
+    <li class="dropdown">
+    <a href="#" class="dropbtn">OVER ONS
+    	<i class="fa fa-caret-down" id="down"></i></a>
+    <div class="dropdown-content">
+      <a href="#">GESCHIEDENIS</a>
+      <a href="#">DEALS</a>
+      <a href="#">DIENSTEN</a>
+    </div>
+  </li>
+  <li><a href="#news">PORTFOLIO</a></li>
+  <li><a href="#news">NIEUWS</a></li>
+  <li><a href="#news">CONTACT</a></li>
+
+</ul>
+</nav>
 
 </body>
 </html>
