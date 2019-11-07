@@ -18,13 +18,18 @@ nav{
 	display: inline;
 }
 ul {
-  list-style-type: none;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  overflow: hidden;
-  background-color: #222931;
-  width: 1000px;
-
+    list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    background-color: black;
+    width: 950px;
+    font-size: 16px;
+    font-weight: 500px;
+    transition: width 2s;
+}
+ul:hover{
+	width: 1327px;
 }
 
 li {
@@ -39,7 +44,7 @@ li a, .over {
   text-decoration: none;
 }
 
-li a:hover, .list:hover .over{
+li a:hover, .list:hover{
   background-color: yellow;
   color: black;
 }
@@ -48,14 +53,14 @@ li.list {
   display: inline-block;
 }
 
-.menu {
+.menu{
   display: none;
   position: absolute;
   background-color: #222931;
   min-width: 160px;
 }
 
-.menu a {
+.menu a{
   color: white
   padding: 12px 16px;
   text-decoration: none;
@@ -79,5 +84,68 @@ li.list {
 #banner1{
 	position: absolute;
 	top: 620px;
-	left: 200px;
+	left: 240px;
+	font-size: 32px;
+	font-weight: 600px;
+}
+.geschiedenis{
+	position: absolute;
+	visibility: hidden;
+	top: 620px;
+	left: 240px;
+	color: white;
+}
+#banner1:hover .geschiedenis{
+	visibility: visible;
+
+
+}
+#banner2{
+	position: absolute;
+	top: 620px;
+	left: 600px;
+	font-size: 32px;
+	font-weight: 600px;
+}
+#banner3{
+	position: absolute;
+	top: 620px;
+	left: 950px;
+	font-size: 32px;
+	font-weight: 600px;
+}
+#yellow{
+	display: inline;
+	position: absolute;
+    overflow: hidden;
+    background-color: yellow;
+    width: 1519px;
+    top: 900px;
+    left: 0px;
+    height: 130px;
+}
+
+#text1{
+	position: absolute;
+	top: 30px;
+	left: 220px;
+	font-size: 30px;
+}
+#text2{
+	position: absolute;
+	top: 55px;
+	left: 600px;
+	font-size: 15px;
+}
+#knop{
+	position: absolute;
+	left: 1000px;
+	padding: 15px;
+	top: 40px;
+	width: 230px;
+	background-color: white;
+}
+#knop:hover{
+	color: white;
+	background-color: grey
 }
