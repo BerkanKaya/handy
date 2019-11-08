@@ -4,7 +4,7 @@ body{
 #logo{
 	position: absolute;
 	left: 10%;
-	top: 30px;
+	top: 32px;
 }
 #header{
 	position: absolute;
@@ -34,6 +34,13 @@ ul:hover{
 
 li {
   float: left;
+  font-size: 12px;
+  font-weight: 500;
+  transition: font-size 2s;
+}
+li:hover{
+	font-size: 15px;
+	font-weight: 800;
 }
 
 li a, .over{
@@ -58,6 +65,7 @@ li.list {
   position: absolute;
   background-color: #222931;
   min-width: 160px;
+
 }
 
 .menu a{
@@ -77,18 +85,18 @@ li.list {
 #arrow:hover{
 	color: black;
 }
-
-.test {
-	display: inline-block;
-	position: relative;
-}
 #banner1{
 	position: absolute;
-	top: 597px;
+	top: 620px;
 	left: 240px;
 	font-size: 32px;
 	font-weight: 600px;
 	opacity: 1;
+	width: 300px;
+	transition: width 1s;
+}
+#banner1:hover{
+	width: 320px;
 }
 #test1 {
 	opacity: 0;
@@ -116,6 +124,11 @@ li.list {
 	left: 600px;
 	font-size: 32px;
 	font-weight: 600px;
+	width: 300px;
+	transition: width 1s;
+}
+#banner2:hover{
+	width: 320px;
 }
 #banner3{
 	position: absolute;
@@ -123,6 +136,11 @@ li.list {
 	left: 950px;
 	font-size: 32px;
 	font-weight: 600px;
+	width: 300px;
+	transition: width 1s;
+}
+#banner3:hover{
+	width: 320px;
 }
 #yellow{
 	display: inline;
@@ -176,7 +194,7 @@ li.list {
     left: 250px;
     height: 110px;
 }
-#yellow3{
+#yellow2{
 	display: inline;
 	position: absolute;
     overflow: hidden;
@@ -186,7 +204,7 @@ li.list {
     left: 600px;
     height: 110px;
 }
-#yellow2{
+#yellow3{
 	display: inline;
 	position: absolute;
     overflow: hidden;
@@ -212,14 +230,138 @@ li.list {
 #deals{
 	position: absolute;
 	font-size: 34px;
-	font-weight: 700px;
+	font-weight: 700;
 	top: -10px;
 	left: 140px;
 }
 #bekijk{
 	position: absolute;
 	font-size: 16px;
-	font-weight: 700px;
+	font-weight: 700;
 	top: 50px;
 	left: 140px;
+}
+#case{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	font-size: 70px;
+}
+#diensten{
+	position: absolute;
+	font-size: 34px;
+	font-weight: 700;
+	top: -10px;
+	left: 120px;
+}
+#bekijk1{
+	position: absolute;
+	font-size: 16px;
+	font-weight: 700;
+	top: 50px;
+	left: 115px;
+}
+#envelop{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	font-size: 70px;
+}
+#contact{
+	position: absolute;
+	font-size: 34px;
+	font-weight: 700;
+	top: -10px;
+	left: 120px;
+}
+#contact1{
+	position: absolute;
+	font-size: 16px;
+	font-weight: 700;
+	top: 50px;
+	left: 120px;
+}
+#lijntje{
+	display: inline;
+	position: absolute;
+    overflow: hidden;
+    background-color: white;
+    border:	solid DarkGray 1px;
+    width: 1020px;
+    top: 1440px;
+    left: 250px;
+    height: 2px;
+}
+#over1{
+	position: absolute;
+	top: 1480px;
+	left: 240px;
+	font-size: 32px;
+	font-weight: 600;
+}
+#lorem{
+	position: absolute;
+	top: 1590px;
+	left: 240px;
+	width: 500px;
+}
+#contact1{
+	position: absolute;
+	top: 1480px;
+	left: 950px;
+	font-size: 32px;
+	font-weight: 600;
+}
+#gps{
+	position: absolute;
+	top: 1605px;
+	left: 950px;
+	font-size: 32px;
+}
+#adress{
+	position: absolute;
+	top: 1590px;
+	left: 995px;
+}
+#adress1{
+	position: absolute;
+	top: 1610px;
+	left: 995px;
+}
+#mobiel{
+	position: absolute;
+	top: 1665px;
+	left: 951px;
+	font-size: 32px;
+	font-size: 36px;
+}
+#nummer{
+	position: absolute;
+	top: 1657px;
+	left: 994px;
+}
+#envelop{
+	position: absolute;
+	top: 1725px;
+	left: 946px;
+	font-size: 32px;
+	font-size: 36px;
+}
+#mail{
+	position: absolute;
+	top: 1720px;
+	left: 994px;
+}
+#black{
+	position: absolute;
+	background-color: black;
+	top: 1950px;
+	width: 1519px;
+	height: 50px;
+	left: 0px;
+}
+#naam{
+	position: absolute;
+	right: 100px;
+	color: white;
 }
