@@ -1,5 +1,5 @@
 body{
-	font-family: 'Archivo' , sans-serif;
+	font-family: 'Archivo', sans-serif;
 }
 #logo{
 	position: absolute;
@@ -36,7 +36,7 @@ li {
   float: left;
 }
 
-li a, .over {
+li a, .over{
   display: inline-block;
   color: white;
   text-align: center;
@@ -68,11 +68,7 @@ li.list {
   text-align: left;
 }
 
-.menu a:hover{
-	background-color: yellow;
-}
-
-.list:hover .menu {
+.list:hover .menu{
   display: block;
 }
 #arrow{
@@ -81,24 +77,38 @@ li.list {
 #arrow:hover{
 	color: black;
 }
+
+.test {
+	display: inline-block;
+	position: relative;
+}
 #banner1{
 	position: absolute;
-	top: 620px;
+	top: 597px;
 	left: 240px;
 	font-size: 32px;
 	font-weight: 600px;
+	opacity: 1;
 }
-.geschiedenis{
+#test1 {
+	opacity: 0;
 	position: absolute;
-	visibility: hidden;
-	top: 620px;
-	left: 240px;
-	color: white;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
-#banner1:hover .geschiedenis{
-	visibility: visible;
-
-
+.test > #banner1:hover{
+	background-color: #222931;
+}
+.test:hover #test1{
+	opacity: 0,8;
+}
+#geschiedenis{
+	position: relative;
+	color: black;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	background-color: #222931;
 }
 #banner2{
 	position: absolute;
@@ -133,8 +143,8 @@ li.list {
 }
 #text2{
 	position: absolute;
-	top: 55px;
-	left: 600px;
+	top: 56px;
+	left: 595px;
 	font-size: 15px;
 }
 #knop{
@@ -148,4 +158,68 @@ li.list {
 #knop:hover{
 	color: white;
 	background-color: grey
+}
+#footer{
+	position: absolute;
+	left: 0px;
+	height: 200px;
+	top: 1100px;
+	width: 1519px;
+}
+#yellow1{
+	display: inline;
+	position: absolute;
+    overflow: hidden;
+    background-color: yellow;
+    width: 320px;
+    top: 1250px;
+    left: 250px;
+    height: 110px;
+}
+#yellow3{
+	display: inline;
+	position: absolute;
+    overflow: hidden;
+    background-color: yellow;
+    width: 320px;
+    top: 1250px;
+    left: 600px;
+    height: 110px;
+}
+#yellow2{
+	display: inline;
+	position: absolute;
+    overflow: hidden;
+    background-color: yellow;
+    width: 320px;
+    top: 1250px;
+    left: 950px;
+    height: 110px;
+}
+#hand{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	font-size: 70px;
+}
+#footer1{
+	position: absolute;
+	left: 0px;
+	height: 200px;
+	top: 2000px;
+	width: 1519px;
+}
+#deals{
+	position: absolute;
+	font-size: 34px;
+	font-weight: 700px;
+	top: -10px;
+	left: 140px;
+}
+#bekijk{
+	position: absolute;
+	font-size: 16px;
+	font-weight: 700px;
+	top: 50px;
+	left: 140px;
 }
