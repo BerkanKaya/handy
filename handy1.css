@@ -289,6 +289,7 @@ li.list {
 	font-weight: 700;
 	top: -10px;
 	left: 120px;
+
 }
 
 #bekijk1{
@@ -389,6 +390,7 @@ li.list {
 	position: absolute;
 	top: 1720px;
 	left: 994px;
+	color: black;
 }
 #black{
 	position: absolute;
@@ -401,5 +403,20 @@ li.list {
 #naam{
 	position: absolute;
 	right: 100px;
+	color: white;
+}
+#link5{
+	color: white;
+}
+#link8{
+	color: black;
+}
+#link8:hover{
+	color: white;
+}
+#link9{
+	color: black;
+}
+#link9:hover{
 	color: white;
 }
