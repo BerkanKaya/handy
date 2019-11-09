@@ -231,12 +231,13 @@ li.list {
 	top: -10px;
 	left: 120px;
 }
-#contact1{
+#contact5{
 	position: absolute;
 	font-size: 16px;
 	font-weight: 700;
-	top: 150px;
+	top: 50px;
 	left: 120px;
+	color: black;
 }
 #lijntje{
 	display: inline;
