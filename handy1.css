@@ -85,17 +85,97 @@ li.list {
 #arrow:hover{
 	color: black;
 }
+#banner1:hover{
+	width: 320px;
+}
+#test{
+	background-image: url('img/banner-1.jpg');
+	width: 300px;
+	height: 220px;
+	position: absolute;
+	top: 620px;
+	left: 260px;
+	font-size: 32px;
+	font-weight: 600;
+}
+#geschiedenis{
+	width: 300px;
+	height: 220px;
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+	line-height:200px;
+	text-align:center;
+	color: white;
+}
 
+#test:hover > #geschiedenis{
+	display: block;
+}
+#banner2{
+	background-image: url('img/banner-2.jpg');
+	width: 300px;
+	height: 220px;
+	position: absolute;
+	top: 620px;
+	left: 600px;
+	font-size: 32px;
+	font-weight: 600;
+	width: 300px;
+}
+#deals1{
+	width: 300px;
+	height: 220px;
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+	line-height:200px;
+	text-align:center;
+	color: white;
+}
+#banner2:hover > #deals1{
+	display: block;
+}
+#banner3{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-size: 32px;
+	font-weight: 600;
+	width: 1px;
+	transition: width 1s;
+}
+#diensten33{
+	background-image: url('img/banner-3.jpg');
+	width: 300px;
+	height: 220px;
+	position: absolute;
+	top: 620px;
+	left: 940px;
+	font-size: 32px;
+	font-weight: 600;
+}
+#banner33{
+	width: 300px;
+	height: 220px;
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+	line-height:200px;
+	text-align:center;
+	color: white;
+}
+#diensten33:hover > #banner33{
+	display: block;
+}
 #yellow{
 	display: inline;
 	position: absolute;
     overflow: hidden;
     background-color: yellow;
     width: 1519px;
-    top: 1000px;
+    top: 900px;
     left: 0px;
     height: 130px;
 }
+
 #text1{
 	position: absolute;
 	top: 30px;
@@ -124,7 +204,7 @@ li.list {
 	position: absolute;
 	left: 0px;
 	height: 200px;
-	top: 1200px;
+	top: 1100px;
 	width: 1519px;
 }
 #yellow1{
@@ -133,7 +213,7 @@ li.list {
     overflow: hidden;
     background-color: yellow;
     width: 320px;
-    top: 1350px;
+    top: 1250px;
     left: 250px;
     height: 110px;
 }
@@ -147,7 +227,7 @@ li.list {
     overflow: hidden;
     background-color: yellow;
     width: 320px;
-    top: 1350px;
+    top: 1250px;
     left: 600px;
     height: 110px;
 }
@@ -161,7 +241,7 @@ li.list {
     overflow: hidden;
     background-color: yellow;
     width: 320px;
-    top: 1350px;
+    top: 1250px;
     left: 950px;
     height: 110px;
 }
@@ -175,11 +255,12 @@ li.list {
 	left: 30px;
 	font-size: 70px;
 }
+
 #footer1{
 	position: absolute;
 	left: 0px;
 	height: 200px;
-	top: 2100px;
+	top: 2000px;
 	width: 1519px;
 }
 #deals{
@@ -235,7 +316,7 @@ li.list {
 	position: absolute;
 	font-size: 16px;
 	font-weight: 700;
-	top: 150px;
+	top: 50px;
 	left: 120px;
 }
 #lijntje{
@@ -245,74 +326,74 @@ li.list {
     background-color: white;
     border:	solid DarkGray 1px;
     width: 1020px;
-    top: 1540px;
+    top: 1440px;
     left: 250px;
     height: 2px;
 }
 #over1{
 	position: absolute;
-	top: 1580px;
+	top: 1480px;
 	left: 240px;
 	font-size: 32px;
 	font-weight: 600;
 }
 #lorem{
 	position: absolute;
-	top: 1690px;
+	top: 1590px;
 	left: 240px;
 	width: 500px;
 }
 #contact2{
 	position: absolute;
-	top: 1580px;
+	top: 1480px;
 	left: 950px;
 	font-size: 32px;
 	font-weight: 600;
 }
 #gps{
 	position: absolute;
-	top: 1705px;
+	top: 1605px;
 	left: 950px;
 	font-size: 32px;
 }
 #adress{
 	position: absolute;
-	top: 1690px;
+	top: 1590px;
 	left: 995px;
 }
 #adress1{
 	position: absolute;
-	top: 1710px;
+	top: 1610px;
 	left: 995px;
 }
 #mobiel{
 	position: absolute;
-	top: 1765px;
+	top: 1665px;
 	left: 951px;
 	font-size: 32px;
 	font-size: 36px;
 }
 #nummer{
 	position: absolute;
-	top: 1757px;
+	top: 1657px;
 	left: 994px;
 }
 #envelop1{
 	position: absolute;
-	top: 1825px;
+	top: 1725px;
 	left: 946px;
 	font-size: 32px;
 	font-size: 36px;
 }
 #mail{
 	position: absolute;
-	top: 1820px;
+	top: 1720px;
 	left: 994px;
 }
 #black{
 	position: absolute;
 	background-color: black;
-	top: 2050px;
+	top: 1950px;
 	width: 1519px;
 	height: 50px;
 	left: 0px;
@@ -321,34 +402,4 @@ li.list {
 	position: absolute;
 	right: 100px;
 	color: white;
-}
-#diensten0{
-	position: absolute;
-	top: 600px;
-	left: 200px;
-	font-size: 32px;
-	font-weight: 600;
-}
-#diensten01{
-	position: absolute;
-	top: 660px;
-	left: 200px;
-	width: 1050px;
-	font-size: 16px;
-	font-weight: 500;
-	line-height: 24px;
-}
-#diensten02{
-	position: absolute;
-	top: 800px;
-	left: 200px;
-	width: 1050px;
-	font-size: 16px;
-	font-weight: 500;
-	line-height: 24px;
-}
-#diensten03{
-	position: absolute;
-	top: 570px;
-	left: 200px;
 }
