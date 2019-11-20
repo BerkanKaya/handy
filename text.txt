@@ -106,3 +106,14 @@ regelgeving
 Regelgeving kan per gemeente 
 verschillen. Wij nemen dit voor 
 onze rekening
+
+
+
+
+
+
+
+
+
+1,30 * 3 = 3,90
+1,30/5 = 0,26

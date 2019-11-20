@@ -302,7 +302,6 @@ li.list {
 	position: absolute;
 	top: 1825px;
 	left: 946px;
-	font-size: 32px;
 	font-size: 36px;
 }
 #mail{
@@ -352,4 +351,29 @@ li.list {
 	position: absolute;
 	top: 570px;
 	left: 200px;
+}
+#nieuw{
+	color: yellow;
+}
+#advies{
+	color: yellow;
+}
+#regel{
+	color: yellow;
+}
+#project{
+	display: none;
+	position: absolute;
+	background-color: #222931;
+	min-width: 160px;
+}
+#project a{
+  color: white
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+#nieuw:hover #project{
+  display: block;
 }
